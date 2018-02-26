@@ -1,3 +1,5 @@
+com\niit\dao\JobDAO.class
+com\niit\dao\JobDAOImpl.class
 com\niit\dao\UserDAO.class
 com\niit\model\User.class
 com\niit\Backendprj2\App.class
@@ -5,4 +7,5 @@ com\niit\configuration\DBConfiguration.class
 com\niit\configuration\WebAppConfig.class
 com\niit\configuration\WebAppInitializer.class
 com\niit\dao\UserDAOImpl.class
+com\niit\model\Job.class
 com\niit\model\ErrorClazz.class

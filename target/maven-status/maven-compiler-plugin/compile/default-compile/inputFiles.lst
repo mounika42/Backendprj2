@@ -1,5 +1,8 @@
 E:\workspace\Backendprj2\src\main\java\com\niit\model\ErrorClazz.java
+E:\workspace\Backendprj2\src\main\java\com\niit\model\Job.java
+E:\workspace\Backendprj2\src\main\java\com\niit\dao\JobDAO.java
 E:\workspace\Backendprj2\src\main\java\com\niit\configuration\WebAppConfig.java
+E:\workspace\Backendprj2\src\main\java\com\niit\dao\JobDAOImpl.java
 E:\workspace\Backendprj2\src\main\java\com\niit\configuration\DBConfiguration.java
 E:\workspace\Backendprj2\src\main\java\com\niit\configuration\WebAppInitializer.java
 E:\workspace\Backendprj2\src\main\java\com\niit\model\User.java
