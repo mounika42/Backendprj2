@@ -8,16 +8,20 @@ import javax.persistence.Table;
 @Entity
 @Table(name="ProPic")
 public class ProfilePicture {
-@Id
-private String username;
-@Lob
-private byte[] image;
-
-public String getUsername() {
-		return username;
+	
+	public ProfilePicture(){
+		System.out.println("ProfilePicture.");
 	}
-	public void setUsername(String username) {
-		this.username = username;
+	
+	@Id
+	private String email;
+	@Lob
+	private byte[] image;
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	public byte[] getImage() {
 		return image;

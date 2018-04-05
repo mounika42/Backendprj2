@@ -1,16 +1,9 @@
 package com.niit.model;
 
-public class Error { 
-	private int code; 
-	private String message;
+public class ErrorClass {
 	
-	public Error(int code,String message)
-	{
-		super();
-		this.code=code;
-		this.message=message;
-
-	}
+	private int code;
+	private String message;
 	public int getCode() {
 		return code;
 	}
@@ -23,8 +16,10 @@ public class Error {
 	public void setMessage(String message) {
 		this.message = message;
 	}
-	
-	
-
+	public ErrorClass(int code, String message) {
+		super();
+		this.code = code;
+		this.message = message;
+	}
 	
 }
